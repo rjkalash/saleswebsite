@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #1a1a2e;
+  --secondary-color: #e94560;
+  --background-light: #f4f7fc;
+  --text-dark: #333;
+  --text-light: #fff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.3s;
+}
+
+body, h1, h2, h3, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

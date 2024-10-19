@@ -1,0 +1,51 @@
+.about {
+    padding: 80px 20px;
+    background-color: var(--background-light);
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px;
+  }
+  
+  .about-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+  
+  .about-card {
+    background-color: var(--text-light);
+    color: var(--text-dark);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px var(--card-shadow);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    text-align: left;
+  }
+  
+  .about-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px var(--card-shadow);
+  }
+  
+  .about-card h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .about-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
